@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#004349</color>
     <color name="colorAccent">#F9A825</color>
     <color name="white">#FFFFFF</color>
+    <color name="download_image_tint">#9E5EFF</color>
+    <color name="download_success_color">#025A02</color>
+    <color name="download_error_color">#025A02</color>
 </resources>
