@@ -26,5 +26,5 @@
     <string name="notification_channel">Download</string>
     <string name="download_notification_channel_id" translatable="false">download_channel</string>
 
-    <string name="invalid_option_text">Invalid option</string>
+    <string name="invalid_option_text">You must make a selection</string>
 </resources>

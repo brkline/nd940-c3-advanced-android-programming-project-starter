@@ -55,15 +55,14 @@ class MainActivity : AppCompatActivity() {
                 }
                 selectedOption?.let { option -> download(option) }
                 custom_button.startLoading()
+                createChannel(
+                    getString(R.string.download_notification_channel_id),
+                    getString(R.string.notification_channel)
+                )
+                download(selectedOption)
             } else {
                 Toast.makeText(this, getString(R.string.invalid_option_text), Toast.LENGTH_SHORT).show()
             }
-
-            createChannel(
-                    getString(R.string.download_notification_channel_id),
-                    getString(R.string.notification_channel)
-            )
-            download(selectedOption)
         }
     }
 
